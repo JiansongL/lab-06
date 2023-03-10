@@ -16,8 +16,8 @@ while True:
                         flag = 0
                         setText(f"{threshold_dis} cm \n{ultrasonic_dis} cm")
                 else:
-                        setText_norefresh(f"{threshold_dis} cm \n{ultrasonic_dis} cm$
+                        setText_norefresh(f"{threshold_dis} cm \n{ultrasonic_dis} cm")
         else:
                 setRGB(255, 0 ,0)
-                setText_norefresh(f"{threshold_dis} cm OBJ PRES \n{ultrasonic_dis} c$
+                setText_norefresh(f"{threshold_dis} cm OBJ PRES \n{ultrasonic_dis} cm")
                 flag = 1
